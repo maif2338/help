@@ -1,0 +1,83 @@
+[
+    {
+        "name": "Giant Panda",
+        "population": 2000,
+        "status": "Vulnerable",
+        "habitat": "China",
+        "image": "img/panda.jpg",
+        "id": "1",
+        "description": "Giant panda bear is native to south central China and lives mainly high in the mountains in cool and wet bamboo forests which is their primary source of food. Pandas have been driven out of the lowland areas where they once lived because of farming and deforestation making it a vulnerable species. Improved conservation efforts and better survey methods have managed to increase the wild panda population."
+    },
+    {
+        "name": "Siberian Tiger",
+        "population": 500,
+        "status": "Endangered",
+        "habitat": "Russia",
+        "image": "img/siberian-tiger.jpg",
+        "id": "2",
+        "description": "The Siberian –or Amur- tiger is considered a critically endangered species with the primary threats to its' survival in the wild being poaching and habitat loss from intensive logging and development. Tigers are most commonly poached for their fur and for their body parts used in Traditional Chinese Medicine."
+    },
+    {
+        "name": "Black Rhino",
+        "population": 5000,
+        "status": "Endangered",
+        "habitat": "Southern Africa",
+        "image": "img/rhino.jpg",
+        "id": "3",
+        "description": "Black rhino is a species of rhinoceros, native to eastern and southern Africa. Its population declined by 98 % in the 20th century because of European hunters and settlers. Since then, the species has made a comeback from the brink of extinction, but is still considered critically endangered because of poaching and black-market trafficking of rhino horn."
+    },
+    {
+        "name": "Snow Leopard",
+        "population": 6000,
+        "status": "Vulnerable",
+        "habitat": "Asia",
+        "image": "img/snow.jpg",
+        "id": "4",
+        "description": "Nearly all of the main threats to snow leopards come from humans who encroach on their territory. Snow leopards are threatened by habitat loss, poaching, and retaliatory killing when they turn to livestock for prey."
+    },
+    {
+        "name": "Eastern Lowland Gorilla",
+        "population": 4000,
+        "status": "Endangered",
+        "habitat": "Congo",
+        "image": "img/gorilla.jpg",
+        "id": "5",
+        "description": "What might have been a bleak outlook for the subspecies just a couple of decades ago has brightened in recent years due to conservation efforts. Despite ongoing civil conflict, poaching and an encroaching human population, both populations of mountain gorillas have increased in numbers."
+    },
+    {
+        "name": "Saola",
+        "population": 750,
+        "status": "Endangered",
+        "habitat": "Indochina",
+        "image": "img/saola.jpg",
+        "id": "6",
+        "description": "Saola is threatened primarily by hunting, rather than habitat loss. The main hunting threat comes from commercial poaching, not subsistence hunting by local people."
+    },
+    {
+        "name": "Yangtze Finless Porpoise",
+        "population": 1000,
+        "status": "Critically Endangered",
+        "habitat": "China",
+        "image": "img/porpoise.jpg",
+        "id": "7",
+        "description": "In 2012 there were as few as 1,000 finless porpoises left in the Yangtze. There is an almost 90% chance that the Yangtze finless porpoise will be extinct in the next century unless urgent conservation efforts are made."
+    },
+    {
+        "name": "Sumatran Elephant",
+        "population": 2500,
+        "status": "Critically Endangered",
+        "habitat": "Indonesia",
+        "image": "img/elephant.jpg",
+        "id": "8",
+        "description": "In 2012, the Sumatran elephant was changed from “Endangered” to “Critically Endangered” because half of its population has been lost in one generation—a decline that is largely due to habitat loss and as a result human-elephant conflict. Sumatra has experienced one of the highest rates of deforestation within the Asian elephant’s range, which has resulted in local extinctions of elephants in many areas."
+    },
+    {
+        "name": "Sumatran Orangutan",
+        "population": 7500,
+        "status": "Critically Endangered",
+        "habitat": "Indonesia",
+        "image": "img/orangutan.jpg",
+        "id": "9",
+        "description": "Habitat destruction is the biggest reason Sumatran orangutans are endangered. They have a small geographic range, to begin with, and it has been restricted significantly over the past decades. Now they are only found in northern Sumatra. Huge sections of their habitat have been cleared for oil palm plantations."
+    }
+]

@@ -1,0 +1,76 @@
+{
+    "animals": {
+        "Giant Panda": {
+            "name": "Giant Panda",
+            "population": 2000,
+            "status": "Vulnerable",
+            "habitat": "China",
+            "image": "img/panda.jpg",
+            "detail": "./animals/panda.html"
+        },
+        "Siberian Tiger": {
+            "name": "Siberian Tiger",
+            "population": 500,
+            "status": "Endangered",
+            "habitat": "Russia",
+            "image": "img/siberian-tiger.jpg",
+            "detail": "./animals/tiger.html"
+        },
+        "Black Rhino": {
+            "name": "Black Rhino",
+            "population": 5000,
+            "status": "Endangered",
+            "habitat": "Southern Africa",
+            "image": "img/rhino.jpg",
+            "detail": "./animals/rhino.html"
+        },
+        "Snow Leopard": {
+            "name": "Snow Leopard",
+            "population": 6000,
+            "status": "Vulnerable",
+            "habitat": "Asia",
+            "image": "img/snow.jpg",
+            "detail": "./animals/snow.html"
+        },
+        "Eastern Lowland Gorilla": {
+            "name": "Eastern Lowland Gorilla",
+            "population": 4000,
+            "status": "Endangered",
+            "habitat": "Congo",
+            "image": "img/gorilla.jpg",
+            "detail": "./animals/gorilla.html"
+        },
+        "Saola": {
+            "name": "Saola",
+            "population": 750,
+            "status": "Endangered",
+            "habitat": "Indochina",
+            "image": "img/saola.jpg",
+            "detail": "./animals/saola.html"
+        },
+        "Yangtze Finless Porpoise": {
+            "name": "Yangtze Finless Porpoise",
+            "population": 1000,
+            "status": "Critically Endangered",
+            "habitat": "China",
+            "image": "img/porpoise.jpg",
+            "detail": "./animals/porpoise.html"
+        },
+        "Sumatran Elephant": {
+            "name": "Sumatran Elephant",
+            "population": 2500,
+            "status": "Critically Endangered",
+            "habitat": "Indonesia",
+            "image": "img/elephant.jpg",
+            "detail": "./animals/elephant.html"
+        },
+        "Sumatran Orangutan": {
+            "name": "Sumatran Orangutan",
+            "population": 7500,
+            "status": "Critically Endangered",
+            "habitat": "Indonesia",
+            "image": "img/orangutan.jpg",
+            "detail": "./animals/orangutan.html"
+        }
+    }
+}

@@ -1,0 +1,413 @@
+* {
+    font-family: 'Nunito', sans-serif;
+}
+
+html, body {
+    min-height: 500px;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-item {
+    border-radius: 10px;
+    align-items: center;
+    min-width: 300px;
+    min-height: 300px;
+
+}
+
+.container-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.row {
+    width: 100%;
+    align-items: center;
+}
+
+.animal-details {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.container-item:hover .animal-details {
+    opacity: .8;
+}
+
+.detail-text {
+    color: white;
+    text-align: center;
+    opacity: 1;
+}
+
+.card-name {
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+.card-detail {
+    font-size: 2em;
+}
+
+.no-padding {
+    padding: 0 !important;
+}
+/* Landing page specific stuff*/
+
+.landing {
+    height: 30rem;
+    width: 100%;
+    margin-top: 3rem;
+    color: white;
+}
+
+.landing div {
+    height: 100%;
+    background-position-y: -60%;
+}
+
+.species-list-page {
+    padding-top: 20px;
+    background-image: linear-gradient(green, white, green);
+    height: 100%;
+}
+
+.mainList {
+    background-color: forestgreen;
+}
+
+.landing h1 {
+    padding-top: 10rem;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    margin-top: 10px;
+    color: white;
+}
+
+.explore {
+    background-image: linear-gradient(green, black);
+}
+
+.authors-landing {
+    font-size: 5.5vw;
+}
+
+.landing h2 {
+    text-align: center;
+}
+/* End of landing specific stuff*/
+
+/* For watch_list page */
+.watch-list {
+    height: 10rem;
+    width: 100%;
+    margin-top: 3rem;
+    color: white;
+}
+
+.watch-list div {
+    height: 100%;
+    background-position-y: -60%;
+}
+
+.watch-list h1 {
+    padding-top: 3rem;
+    font-weight: 400;
+    font-size: 50px;
+    text-align: center;
+}
+
+.watch-list h2 {
+    text-align: center;
+}
+
+.watch-list-page {
+    padding-top: .1px;
+    background: linear-gradient(green, white ,green);
+
+}
+
+.goHome{
+    padding: 1.5rem;
+    font-weight: 100;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 35rem;
+}
+
+
+/* End of watch-list page stuff*/
+
+nav {
+    width: 100%;
+    background-color: #008148;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 3rem;
+    z-index: 100;
+}
+
+ul > li {
+    float: left;
+    margin-right: 1rem;
+    display: block;
+  }
+
+nav > ul {
+    margin: 0;
+    padding: 0;
+    padding-top: .5rem;
+    display: inline-block;
+  }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    color: white;
+    font-size: 7.5vw;
+    margin-right: .5em;
+}
+
+main a, footer a {
+    font-size: 10;
+    color: white;
+}
+
+
+.filters {
+    display: inline;
+    align-items: center;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-size: 1.5rem;
+}
+
+#sadBody {
+    background-color: white;
+}
+
+.sadHeader h1{
+    padding-top: 3rem;
+    color: black;
+    font-size: 4rem;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+}
+
+.animal-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    animation: fadeOut 60s infinite;
+}
+
+#estimate {
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    color:black;
+    animation: fadeOut 60s infinite;
+}
+
+.under {
+    text-align: center;
+}
+
+#login {
+    float: right;
+}
+
+/* Sign in page */
+
+.container {
+    margin-top: 50px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#logoutMessage {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#logoutButton {
+    margin: 0 auto;
+    display: block;
+}
+
+/*Visuals*/
+#sad1 {
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: transparent;
+    animation: sadAnim1 60s linear infinite;
+    z-index: -1;
+}
+
+#sad2 {
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    background: transparent;
+    animation: sadAnim2 60s linear infinite;
+    z-index: -1;
+}
+
+.menu {
+    background-color: black;
+    font-size: 10px;
+
+}
+
+.toggle {
+    background-color: #008148;
+    font-size: 17px;
+}
+
+/* Compare page */
+
+.form-group {
+    margin-top: 50px;
+}
+
+.form-group label {
+    color: black;
+}
+
+.form-control {
+    width: 35%;
+    margin-left: 33%;
+}
+
+.item-4 h1{
+    margin-top: 50px;
+}
+
+.item-4 p {
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.homeLink {
+    margin-left: 10px;
+}
+
+@keyframes sadAnim1 {
+    from {
+        transform: translateY(-1100px);
+    }
+
+    to {
+        transform: translateY(1000px);
+    }
+}
+
+@keyframes sadAnim2 {
+    from {
+        transform: translateY(-1000px);
+    }
+
+    to {
+        transform: translateY(700px);
+    }
+}
+
+
+@keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+#description {
+    color: black;
+}
+
+/*MEDIA QUERIES*/
+
+@media (min-width: 281px) {
+    nav a {
+        color: white;
+        font-size: 1.5em;
+        margin-right: .5em;
+    }
+}
+
+/* MEDIUM SCREEN SIZE */
+@media (min-width: 768px) {
+
+    html {
+        height: 100%;
+    }
+    .animal-img {
+        width: 40%;
+    }
+
+    #landing-title {
+        font-size: 7vmin;
+    }
+    #authors {
+        font-size: 3.5vmin;
+    }
+
+    #description {
+        font-size: 2rem;
+        float: left;
+        text-align: justify;
+        width: 40%;
+    }
+
+    #estimate {
+        margin-left: 40%;
+    }
+}
+/* LARGE DESKTOP SCREEN SIZE */
+@media (min-width: 992px) {
+    .landing {
+        background-size: 150%;
+    }
+
+    .explore a {
+        font-size: 5vmin;
+    }
+
+    .landing nav a {
+        font-size: 1.5rem;
+    }
+}
